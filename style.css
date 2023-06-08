@@ -30,5 +30,8 @@ justify-content: space-around;
 .navBar{
 display: flex;
 justify-content: space-evenly;
+}
 
+.mainheading{
+    text-align: center;
 }

@@ -20,6 +20,7 @@
            </div>
             
             <!--  searchBar - [2 containers]- (1. icon- logoimg) - (2. rightSide -searchBox (use input tag) magnifying glassimg- heartimg,locationimg,personimg,bagimg-->
+            <!-- NB Tip!: you can use Flex-wrap:wrap to create grids, then insert the images -->
         
             <div class="searchBar">
                 <div class="icon">
@@ -56,20 +57,20 @@
             </div>
         </div>
 
+        <!-- mainHeading -->
+        <div class="mainheading">
+               <h1>PANDORA COLLECTIONS</h1>
+               <!-- text ( para tag) -->
+               <p>Step into the world of Pandora. Explore our diverse jewelry collections and discover a universe of possibilities to create a look that tells your story.</p>
+            </div>
+            <br> <br>
         <!--padCollectionsContainer  -->
         <div class="padCollectionsCont">
-             <!-- mainHeading -->
-         <div class="mainheading">
-                <h1>PANDORA COLLECTIONS</h1>
-            <!-- text ( para tag) -->
-            <p>Step into the world of Pandora. Explore our diverse jewelry collections and discover a universe of possibilities to create a look that tells your story.</p>
-         </div>
-             <br>
              <!--Row1 Container( 4 collections in divs) -->
             <div class="row1"></div>
                 <!-- Collection1 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect1">
-                    <a class="img1" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1863634/m52-explore-module-col-4-mobile-grid/lg/11/2022-plp-moments-01-grey-rgb-extended.jpg" alt="" class="Collection1"> 
+                <div class="Collect">
+                    <a class="img1" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1863634/m52-explore-module-col-4-mobile-grid/lg/11/2022-plp-moments-01-grey-rgb-extended.jpg" alt="" class="Collection"> 
                     </a>
                    
                   <a href="" class="padMoCollect">Pandora Moments <br> collection
@@ -83,8 +84,8 @@
                  </div>
                 </div>
                 <!-- Collection2 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect2">
-                    <a class="img2" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1855412/m52-explore-module-col-4-mobile-grid/lg/7/2022-plp-signature-01-grey-rgb.jpg" alt="" class="Collection2"> 
+                <div class="Collect">
+                    <a class="img2" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1855412/m52-explore-module-col-4-mobile-grid/lg/7/2022-plp-signature-01-grey-rgb.jpg" alt="" class="Collection"> 
                     </a>
                    
                   <a href="" class="padSigCollect">Pandora Signature <br> collection
@@ -99,8 +100,8 @@
                  </div>
                 </div>
                 <!-- Collection3 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect3">
-                    <a class="img3" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1855452/m52-explore-module-col-4-mobile-grid/lg/6/2022-plp-timeless-01-grey-rgb.jpg" alt="" class="Collection3"> 
+                <div class="Collect">
+                    <a class="img3" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1855452/m52-explore-module-col-4-mobile-grid/lg/6/2022-plp-timeless-01-grey-rgb.jpg" alt="" class="Collection"> 
                     </a>
                    
                   <a href="" class="padTimeLessCollect">Pandora Timeless <br> collection
@@ -115,8 +116,8 @@
                  </div>
                 </div> 
                 <!-- Collection4 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect4">
-                    <a class="img4" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1863800/m52-explore-module-col-4-mobile-grid/lg/6/pandorame-greybg.jpg" alt="" class="Collection4"> 
+                <div class="Collect">
+                    <a class="img4" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1863800/m52-explore-module-col-4-mobile-grid/lg/6/pandorame-greybg.jpg" alt="" class="Collection"> 
                     </a>
                    
                   <a href="" class="padMeCollect"> Pandora ME collection
@@ -138,7 +139,7 @@
         <div class="pandCollaborationsContainer">
             <!--subHeading -->
             <div class="subHeading">
-                <h2>Pandora Collaborations</h3>
+                <h2>Pandora Collaborations</h2>
                     <!-- text ( para tag) -->
                     <p>The Pandora universe is always expanding. Explore our exclusive  <br>   collaborations and connect with the characters, stories and creators you <br> love through our world of jewelry.</p>
             </div>            
@@ -148,11 +149,12 @@
              <!--Row2( 3 collections in divs) -->
              <div class="row2">
                 <!-- Collection5 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect5">
-                    <a class="img5" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1854856/m52-explore-module-col-3/lg/6/2022-plp-disney-01-grey-rgb-explore-1-.jpg" alt="" class="Collection5"> 
-                       <input type="text" class="miniicon"
-                       placeholder="https://cms-live.pandora.net/resource/crblob/1283326/dff92f11748b954b8be277e70a8d76dd/disney-x-pandora-svg-data.svg">
+                <div class="Collect">
+                    <a class="img5" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1854856/m52-explore-module-col-3/lg/6/2022-plp-disney-01-grey-rgb-explore-1-.jpg" alt="" class="Collection"> 
                     </a>
+                    <div class="miniIcon">
+                        <img src="https://cms-live.pandora.net/resource/crblob/1283326/dff92f11748b954b8be277e70a8d76dd/disney-x-pandora-svg-data.svg" alt="" class="miniIconImg">
+                    </div>
                    
                   <a href="" class="disXPanCollect"> Disney x Pandora collection
                   </a>
@@ -165,10 +167,13 @@
                  </div>
                 </div>
                 <!-- Collection6 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect6">
+                <div class="Collect">
                     <a class="img6" href=""><img src="
-                        https://cms-live.pandora.net/resource/responsive-image/1860042/m52-explore-module-col-3/lg/6/2021-e-star-wars-01-rgb-extended-explore-1-.jpg" alt="" class="Collection6"> 
+                        https://cms-live.pandora.net/resource/responsive-image/1860042/m52-explore-module-col-3/lg/6/2021-e-star-wars-01-rgb-extended-explore-1-.jpg" alt="" class="Collection"> 
                     </a>
+                    <div class="miniIcon">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAuMjMgMzQuMDUiPjxnIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgZGF0YS1uYW1lPSJMYXllciAxIiBmaWxsPSIjMjMyMDE5Ij48cGF0aCBkPSJNMTAyLjAzIDEwLjYyIDk3IDE1Ljc3bC01LjA0LTUuMTUtMS4wNCAxLjAzIDUuMDQgNS4xNi01LjA0IDUuMTVMOTEuOTYgMjMgOTcgMTcuODRsNS4wMyA1LjE2IDEuMDQtMS4wNC01LjA2LTUuMTUgNS4wNi01LjE2LTEuMDQtMS4wM3pNMTY4LjU2IDguNWguMzVsLjAyLS4wMi0uMy0zLjAzLS4wMi0uMDJoLS4wOWwtLjAxLjAyLS4zMiAzLjAzLjAyLjAyaC4zNXpNMTcwLjI3IDguNjlsLjAyLS4wMi41MS0yLjcxLS4wMi0uMDItLjA5LS4wMi0uMDEuMDItMS4xMyAyLjU3LjAxLjAyLjcxLjE2ek0xNjkuNzQgOS44NWEuNDEuNDEgMCAwIDAgLjQxLS40Mi40Mi40MiAwIDAgMC0uNDEtLjQxLjQyLjQyIDAgMSAwIDAgLjgzWk0xNjguNTYgOS43M2EuNDIuNDIgMCAxIDAtLjQyLS40Mi40MS40MSAwIDAgMCAuNDIuNDJaTTE2Ni44NSA4LjY5bC43LS4xNi4wMi0uMDItMS4xMy0yLjU3LS4wMS0uMDItLjA5LjAyLS4wMi4wMi41MSAyLjcxLjAyLjAyek0xNjcgOS40M2EuNDIuNDIgMCAwIDAgLjQzLjQyLjQyLjQyIDAgMCAwIDAtLjgzLjQyLjQyIDAgMCAwLS40My40MVpNMTE4Ljg0IDEwLjYxaC0zLjZzLjA4Ljg2LjA4IDIuMzZ2Ny41OGMwIDEuNS0uMDggMi4zNy0uMDggMi4zN2gyLjM5cy0uMDgtLjg3LS4wOC0yLjM3di0yLjIyYy4zMiAwIDEgLjA3IDEuMjkuMDcgMi40MyAwIDQuNTEtMS40OCA0LjUxLTRzLTIuMDktMy43OS00LjUxLTMuNzlabS0uMTEgNS43N2E5LjUzIDkuNTMgMCAwIDEtMS4xOS0uMDl2LTMuNjVoMS4zN2MxLjIyIDAgMi4xOS40OSAyLjE5IDEuNzhzLS44NSAxLjk2LTIuMzcgMS45NlpNMTMwLjEgMTEuNjJhNy4zNyA3LjM3IDAgMCAxLS4zNS0xaC0xLjkyYTUuNTIgNS41MiAwIDAgMS0uMzMgMWwtNC4xNiAxMGE2LjYgNi42IDAgMCAxLS43MSAxLjMxSDEyNWE0LjMgNC4zIDAgMCAxIC4zNS0xLjEybC43Ni0xLjg4aDUuMzZsLjgxIDEuODhjLjI3LjczLjQzIDEuMTIuNDMgMS4xMmgyLjQ1YTkuMyA5LjMgMCAwIDEtLjcxLTEuMzFabS0zLjEgNi4yOSAxLjc1LTQuMzUgMS44OSA0LjM1Wk0xNDcuMzggMTAuNjNoLTIuMTVzLjA5Ljg2LjA5IDIuMzZ2Ni4yMWwtNi42Ni04LjU5aC0yLjM3YTMuMzkgMy4zOSAwIDAgMSAuNCAxLjIydjguNzJjMCAxLjUtLjA5IDIuMzctLjA5IDIuMzdoMi4xOXMtLjA5LS44Ny0uMDktMi4zN3YtNi4zMWw2LjcgOC43MWgycy0uMDktLjg3LS4wOS0yLjM3VjEzYy0uMDItMS41MS4wNy0yLjM3LjA3LTIuMzdaTTE1NC4wOCAxMC42MUgxNTBzLjA5Ljg2LjA5IDIuMzZ2Ny41OGMwIDEuNS0uMDkgMi4zNy0uMDkgMi4zN2gxLjI5Yy44MyAwIDEuNzYuMTEgMi44Mi4xMWE2LjE2IDYuMTYgMCAwIDAgNi40Ny02LjI2IDYuMDUgNi4wNSAwIDAgMC02LjUtNi4xNlpNMTUzLjk0IDIxYTcuMiA3LjIgMCAwIDEtMS40Ny0uMWMtLjE5LS4wNi0uMjMtLjEzLS4yMy0uNDZ2LTcuODJoMS42NGE0LjA5IDQuMDkgMCAwIDEgNC4zNyA0LjIgNC4xIDQuMSAwIDAgMS00LjMxIDQuMThaTTE2OC41NiAxMC40NGE2LjI0IDYuMjQgMCAwIDAtNi4zMyA2LjMyIDYuMzMgNi4zMyAwIDEgMCAxMi42NiAwIDYuMjEgNi4yMSAwIDAgMC02LjMzLTYuMzJabTAgMTAuNjNhNC4xMyA0LjEzIDAgMCAxLTQuMDctNC4zMSA0LjA5IDQuMDkgMCAxIDEgOC4xNiAwIDQuMTQgNC4xNCAwIDAgMS00LjA5IDQuMzFaTTE4My42OSAxOC43NmEyLjIzIDIuMjMgMCAwIDAtMS4yMi0xIDMuNTMgMy41MyAwIDAgMCAyLjUzLTMuMzEgMy44MyAzLjgzIDAgMCAwLTQtMy44NGgtNHMuMDguODYuMDggMi4zNnY3LjU4YzAgMS41LS4wOCAyLjM3LS4wOCAyLjM3aDIuMzlzLS4wOC0uODctLjA4LTIuMzd2LTIuMzRjMS4xOCAwIDEuNjMuMjMgMi4wNi45bDEgMS42MmExNi4xNSAxNi4xNSAwIDAgMSAxLjE4IDIuMjFoMi44NGEyMi4xNiAyMi4xNiAwIDAgMS0xLjUxLTIuMjFabS0zLjI2LTIuNTFhNi4xMyA2LjEzIDAgMCAxLTEuMTEtLjA3di0zLjU2aDEuMzVhMS44NSAxLjg1IDAgMCAxIDIgMS44NWMuMDMuOTQtLjY3IDEuNzgtMi4yNCAxLjc4Wk0xOTkuNTIgMjEuNjNsLTQuMzktMTBhNy4zNyA3LjM3IDAgMCAxLS4zNS0xaC0xLjkyYTUuNTIgNS41MiAwIDAgMS0uMzMgMWwtNC4xNyAxMGE2LjMyIDYuMzIgMCAwIDEtLjcgMS4zMWgyLjQ1YTQuMyA0LjMgMCAwIDEgLjM1LTEuMTJsLjc2LTEuODhoNS4zNmwuODEgMS44OGMuMjcuNzMuNDIgMS4xMi40MiAxLjEyaDIuNDZhOS4zIDkuMyAwIDAgMS0uNzUtMS4zMVpNMTkyIDE3LjkxbDEuNzQtNC4zNSAxLjg5IDQuMzVaTTM2Ljg3IDE3Ljc4YS4yLjIgMCAwIDAtLjE4LS4xNWgtOC44MmEuMi4yIDAgMCAwLS4xOC4xNXMtNC44OCAxNi4wOS00Ljg4IDE2LjEyYS4xNS4xNSAwIDAgMCAuMTUuMTVoNS44MmEuMTYuMTYgMCAwIDAgLjEtLjExbC42OC0yLjE3YS4xNS4xNSAwIDAgMSAuMTMtLjFoNS4zOGEuMTUuMTUgMCAwIDEgLjEzLjFsLjY5IDIuMTdhLjE3LjE3IDAgMCAwIC4wOS4xMWg1Ljc0YS4xNS4xNSAwIDAgMCAuMTUtLjE0cy01LTE2LjEzLTUtMTYuMTNabS0zLjI0IDkuNDNoLTIuNGMtLjA4IDAtLjE0LS4xLS4xNC0uMTlzMS4yOC00LjE1IDEuMjgtNC4xNWMwLS4xNi4wNS0uMTYuMDYtLjE2czAgMCAuMDcuMTZjMCAwIDEuMjggNC4xMiAxLjI4IDQuMTVzLS4wNy4xOS0uMTUuMTlaTTcwLjY3IDIzaDguMTF2LTUuMzdINjguMzVhNi4wNiA2LjA2IDAgMCAwLTMuMTQgMS4wOSA0Ljc5IDQuNzkgMCAwIDAtMS45MyAzLjc0IDUuODUgNS44NSAwIDAgMCAxLjExIDMuMjZjLjU3LjcxIDIgMi4xOCAyIDIuMThhLjIyLjIyIDAgMCAxIDAgLjE0LjE5LjE5IDAgMCAxLS4yLjE5aC04Yy0xIDAtMS0uNC0xLS40NXMuMTItLjE3LjEyLS4xN2E4LjY3IDguNjcgMCAwIDAgMS4xMi0uNzZBNC42OSA0LjY5IDAgMCAwIDYwLjE5IDIzYTQuOTEgNC45MSAwIDAgMC0xLjc3LTMuOTMgNi4zOCA2LjM4IDAgMCAwLTMuNjktMS40Nkg0My4yNlYzNGEuMS4xIDAgMCAwIC4xLjFoNi4zOHYtNC42M2MwLS4wOC4xMyAwIC4xMyAwbDMuMzIgMy4zNGE1LjA4IDUuMDggMCAwIDAgMy4xNCAxLjI0SDY4LjlhNSA1IDAgMCAwIDMuNjctMS41QTUuMDkgNS4wOSAwIDAgMCA3NCAyOWE1IDUgMCAwIDAtMS4zMi0zLjUzYy0uMzUtLjQzLTEuNzUtMS45MS0yLTIuMjJhLjE0LjE0IDAgMCAxLS4wNi0uMTIuMTYuMTYgMCAwIDEgLjA1LS4xM1ptLTE3LjE4IDEuNGgtMy41OGEuMTMuMTMgMCAwIDEtLjEtLjEzdi0xLjg2YS4xNS4xNSAwIDAgMSAuMS0uMTRoMy4yOGExLjA4IDEuMDggMCAwIDEgMS4xNiAxLjA4IDEgMSAwIDAgMS0uODYgMVpNMTkuOSAzNC4wNSAyMCAzNGw0Ljk0LTE2LjI0YS4wOS4wOSAwIDAgMC0uMDYtLjFoLTYuMTFzLS4wNSAwLS4wNi4wNmwtMS4yNiA0LjIyczAgLjA2LS4wNi4wNi0uMDUgMC0uMDYtLjA2TDE2IDE3LjY5YS4wNi4wNiAwIDAgMC0uMDUtLjA2SDkuMjNMOCAyMS45MVYyMmEuMDYuMDYgMCAwIDEtLjA2IDBsLTEuMy00LjMydi0uMDVILjFhLjA5LjA5IDAgMCAwLS4xLjFTNSAzNCA1IDM0czAgLjA4LjA4LjA4aDUuMzlzLjA3IDAgLjA4LS4wOGwxLjg3LTZzMC0uMDYuMDYtLjA2YS4wNi4wNiAwIDAgMSAuMDYuMDVMMTQuMzkgMzRhLjA3LjA3IDAgMCAwIC4wNy4wNlpNMTUuMjEgMGE2LjA2IDYuMDYgMCAwIDAtMy4xNCAxLjA5IDQuNzkgNC43OSAwIDAgMC0xLjkzIDMuNzQgNS44MiA1LjgyIDAgMCAwIDEuMTIgMy4yNmMuNTcuNzEgMiAyLjE5IDIgMi4xOWEuMTguMTggMCAwIDEgLjA2LjE0LjE5LjE5IDAgMCAxLS4yLjE5SDB2NS44aDE1Ljc2YTUgNSAwIDAgMCA1LjA4LTUuMDcgNS4wOSA1LjA5IDAgMCAwLTEuMzEtMy41NGMtLjM2LS40My0xLjc2LTEuOS0yLjA1LTIuMjFhLjE0LjE0IDAgMCAxLS4wNi0uMTIuMTYuMTYgMCAwIDEgLjExLS4xNmg3LjU5djExLjFIMzFWNS4zNWg3LjA5VjBaTTcwLjg1IDEwLjYxYy0xIDAtMS0uNC0xLS40NXMuMTItLjE3LjEyLS4xN0E5LjExIDkuMTEgMCAwIDAgNzEgOS4yM2E0LjY5IDQuNjkgMCAwIDAgMS43OC0zLjg0IDQuOTEgNC45MSAwIDAgMC0xLjc3LTMuOTNBNi4zOCA2LjM4IDAgMCAwIDY3LjM2IDBINTUuODl2MTYuMzJhLjEuMSAwIDAgMCAuMS4xaDYuMzl2LTQuNThjMC0uMDguMTIgMCAuMTIgMGwzLjMzIDMuMzRBNS4wNiA1LjA2IDAgMCAwIDY5IDE2LjQyaDkuODJ2LTUuODFabS00LjcyLTMuODloLTMuNTlhLjEzLjEzIDAgMCAxLS4wOS0uMTNWNC43OGEuMTQuMTQgMCAwIDEgLjA5LS4xNGgzLjI5QTEuMDcgMS4wNyAwIDAgMSA2NyA1LjcyYTEgMSAwIDAgMS0uODcgMVpNNDkuODEuMTRhLjE4LjE4IDAgMCAwLS4xOC0uMTRoLTguODJhLjE4LjE4IDAgMCAwLS4xOC4xNHMtNC44NyAxNi4xLTQuODcgMTYuMTNhLjE1LjE1IDAgMCAwIC4xNC4xNWg1LjgzYS4xNi4xNiAwIDAgMCAuMDktLjExbC42OC0yLjE4YS4xNi4xNiAwIDAgMSAuMTMtLjA5SDQ4YS4xNS4xNSAwIDAgMSAuMTMuMWwuNyAyLjE3YS4xNC4xNCAwIDAgMCAuMDkuMTFoNS43NGEuMTUuMTUgMCAwIDAgLjE0LS4xNVM0OS44MS4xNCA0OS44MS4xNFptLTMuMjMgOS40NGgtMi40Yy0uMDkgMC0uMTUtLjEtLjE1LS4xOXMxLjI4LTQuMTUgMS4yOC00LjE1YzAtLjE2LjA2LS4xNi4wNy0uMTZzMCAwIC4wNy4xNmMwIDAgMS4yOCA0LjEyIDEuMjggNC4xNXMtLjA2LjE5LS4xNS4xOVpNNzQuMDEgMzMuMjF2LjExaC4yOHYuNzNoLjExdi0uNzNoLjI4di0uMTFoLS42N3pNNzQuNzcgMzMuMjF2Ljg0aC4xMXYtLjY3bC4yMi42N2guMTJsLjIyLS42N3YuNjdoLjExdi0uODRoLS4xNWwtLjI0LjY5LS4yNC0uNjloLS4xNXoiLz48L2c+PC9nPjwvc3ZnPg==" alt="" class="miniIconImg">
+                    </div>
                    
                   <a href="" class="starWarsXPanCollect"> Star Wars x Pandora collection
                   </a>
@@ -182,9 +187,12 @@
                 </div>
 
                 <!-- Collection7 (clickable img - use anchor tag(ie. type a and press the Tab key on your keybord),clickable text - use an anchor tag, 2nd clickable text - use anchor tag in a div, miniButton)-->
-                <div class="Collect7">
-                    <a class="img7" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1859564/m52-explore-module-col-3/lg/6/ss22-b-marvel-01-rgb-extended-explore.jpg" alt="" class="Collection7"> 
+                <div class="Collect">
+                    <a class="img7" href=""><img src="https://cms-live.pandora.net/resource/responsive-image/1859564/m52-explore-module-col-3/lg/6/ss22-b-marvel-01-rgb-extended-explore.jpg" alt="" class="Collection"> 
                     </a>
+                    <div class="miniIcon">
+                        <img src="data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDIwNi45NiAzNC4yMiI+PHBhdGggZD0ibTEwOC43MiAxMi4zNC01LjAzIDUuMTUtNS4wNC01LjE1LTEuMDMgMS4wMyA1LjAzIDUuMTYtNS4wMyA1LjE1IDEuMDMgMS4wNCA1LjA0LTUuMTYgNS4wMyA1LjE2IDEuMDQtMS4wNC01LjA2LTUuMTUgNS4wNi01LjE2LTEuMDQtMS4wM3pNMTc1LjI4IDEwLjIxaC4zNWwuMDItLjAyLS4zLTMuMDMtLjAyLS4wMmgtLjA5bC0uMDIuMDItLjMxIDMuMDMuMDIuMDJoLjM1ek0xNzYuOTkgMTAuNGwuMDItLjAyLjUxLTIuNzEtLjAyLS4wMi0uMDktLjAyLS4wMi4wMi0xLjEzIDIuNTcuMDIuMDIuNzEuMTZ6TTE3Ni40NiAxMS41NmEuNDIuNDIgMCAwIDAgMC0uODMuNDIuNDIgMCAxIDAgMCAuODNaTTE3NS4yOCAxMS40N2EuNDIuNDIgMCAwIDAgMC0uODMuNDIuNDIgMCAxIDAgMCAuODNaTTE3My41NyAxMC40bC43LS4xNi4wMi0uMDItMS4xMy0yLjU3LS4wMi0uMDItLjA4LjAyLS4wMi4wMi41MSAyLjcxLjAyLjAyek0xNzMuNjggMTEuMTRhLjQyLjQyIDAgMSAwIC44MyAwIC40Mi40MiAwIDAgMC0uNDEtLjQxLjQxLjQxIDAgMCAwLS40Mi40MVpNMTI1LjU0IDEyLjMyaC0zLjZzLjA5Ljg2LjA5IDIuMzZ2Ny41OWMwIDEuNS0uMDkgMi4zNi0uMDkgMi4zNmgyLjM2cy0uMDktLjg2LS4wOS0yLjM2di0yLjJjLjMyIDAgMSAuMDcgMS4yOS4wNyAyLjQzIDAgNC41Mi0xLjQ4IDQuNTItNHMtMi4wNi0zLjgyLTQuNDgtMy44MlptLS4xMSA1Ljc3YTkuODQgOS44NCAwIDAgMS0xLjItLjA5di0zLjY1aDEuMzhjMS4yMiAwIDIuMTkuNDkgMi4xOSAxLjc4cy0uODUgMS45Ni0yLjM3IDEuOTZaTTEzNi44MSAxMy4zM2E2LjgxIDYuODEgMCAwIDEtLjM2LTFoLTEuOTNhNS4yIDUuMiAwIDAgMS0uMzQgMWwtNC4xNiAxMGE2LjA4IDYuMDggMCAwIDEtLjcxIDEuM2gyLjQ0YTQuNTIgNC41MiAwIDAgMSAuMzYtMS4xMWwuNzYtMS44OWg1LjM2bC44MSAxLjg5Yy4yNi43Mi40MiAxLjExLjQyIDEuMTFoMi40M2ExMC4zNCAxMC4zNCAwIDAgMS0uNy0xLjNabS0zLjEzIDYuMjkgMS43NS00LjM1IDEuODkgNC4zNVpNMTU0LjA5IDEyLjM0aC0yLjE1cy4wOS44Ni4wOSAyLjM2djYuMjFsLTYuNjctOC41OWgtMi40MmEzLjI2IDMuMjYgMCAwIDEgLjQxIDEuMjJ2OC43M2MwIDEuNS0uMDkgMi4zNi0uMDkgMi4zNmgyLjE1cy0uMDktLjg2LS4wOS0yLjM2di02LjMzbDYuNyA4LjcxaDJzLS4wOS0uODYtLjA5LTIuMzZWMTQuN2MuMTEtMS41LjE2LTIuMzYuMTYtMi4zNlpNMTYwLjc5IDEyLjMyaC00LjEzcy4wOS44Ni4wOSAyLjM2djcuNTljMCAxLjUtLjA5IDIuMzYtLjA5IDIuMzZoMS4yN2MuODQgMCAxLjc3LjExIDIuODMuMTFhNi4xNyA2LjE3IDAgMCAwIDYuNDctNi4yN2MwLTMuNTctMi42My02LjE1LTYuNDQtNi4xNVptLS4xNCAxMC40M2E2LjI5IDYuMjkgMCAwIDEtMS40Ni0uMTFjLS4yLS4wNS0uMjMtLjEyLS4yMy0uNDZ2LTcuODVoMS42NGE0LjIxIDQuMjEgMCAxIDEgLjA1IDguNDJaTTE3NS4yOCAxMi4xNWE2LjMzIDYuMzMgMCAxIDAgNi4zMyA2LjMzIDYuMjQgNi4yNCAwIDAgMC02LjMzLTYuMzNabTAgMTAuNjNhNC4zMSA0LjMxIDAgMSAxIDQuMDktNC4zIDQuMTMgNC4xMyAwIDAgMS00LjA5IDQuM1pNMTkwLjQyIDIwLjQ3YTIuMjEgMi4yMSAwIDAgMC0xLjIyLTEgMy41MyAzLjUzIDAgMCAwIDIuNDktMy4yOCAzLjgzIDMuODMgMCAwIDAtNC0zLjg1aC00cy4wOS44Ni4wOSAyLjM2djcuNTljMCAxLjUtLjA5IDIuMzYtLjA5IDIuMzZoMi4zNnMtLjA5LS44Ni0uMDktMi4zNnYtMi4zN2MxLjE4IDAgMS42NC4yMyAyLjA3LjlsMSAxLjYzYTE2LjQ4IDE2LjQ4IDAgMCAxIDEuMTggMi4yaDIuODJhMjEuMiAyMS4yIDAgMCAxLTEuNTEtMi4yWm0tMy4yNy0yLjVhNi4yNCA2LjI0IDAgMCAxLTEuMTEtLjA3di0zLjU3aDEuMzZhMS44NSAxLjg1IDAgMCAxIDIgMS44NWMuMDMuOTQtLjY5IDEuNzktMi4yNSAxLjc5Wk0yMDYuMjYgMjMuMzVsLTQuMzktMTBhNi44MSA2LjgxIDAgMCAxLS4zNi0xaC0xLjkyYTUuNTIgNS41MiAwIDAgMS0uMzMgMWwtNC4xNiAxMGE2LjY3IDYuNjcgMCAwIDEtLjcxIDEuM2gyLjQzYTQuNTIgNC41MiAwIDAgMSAuMzYtMS4xMWwuNzUtMS44OWg1LjM3bC44MSAxLjg5Yy4yNi43Mi40MiAxLjExLjQyIDEuMTFoMi40M2ExMC4zNCAxMC4zNCAwIDAgMS0uNy0xLjNabS03LjUyLTMuNzMgMS43NS00LjM1IDEuODggNC4zNVoiLz48cGF0aCBkYXRhLW5hbWU9IlJlZCBGaWxsIiBzdHlsZT0iZmlsbDojZWQxYzI0IiBkPSJNMCAwaDg1LjA0djM0LjIySDB6Ii8+PHBhdGggZD0iTTM5MS45MyAyODguNTF2LTUuMjVoLTE0LjU4TDM3NSAzMDAuNzdsLTIuMzctMTcuNTFoLTUuMjZsLjU5IDQuNjhhOC4zMSA4LjMxIDAgMCAwLTcuNDktNC42OGgtNS4yN3YyNS41MmwtMy44My0yNS41MmgtNi44OGwtNCAyNi40M3YtMjYuNDNoLTYuNTlsLTIuMzcgMTQuODUtMi4zMS0xNC44NWgtNi42VjMxMmg1LjE5di0xMy44NWwyLjMzIDEzLjg1aDIuNzZsMi4zMi0xMy44NVYzMTJoMTBsLjYxLTQuNDJoNGwuNjEgNC40Mmg5Ljg0di05LjMzbDEuMjEtLjE3TDM2NCAzMTJoNS4xbC0zLjI4LTExLjE0YTguMzQgOC4zNCAwIDAgMCAzLTcuMzJTMzcyIDMxMiAzNzIgMzEyaDYuMDVsNC4xMy0yNnYyNmg5Ljh2LTUuMTdoLTQuNjV2LTYuNTloNC42NVYyOTVoLTQuNjV2LTYuNDlaTTM0Ni40NSAzMDNsMS40Mi0xMi4yOCAxLjQ4IDEyLjI4Wm0xNS4wOS01LjY3YTIuODggMi44OCAwIDAgMS0xLjIzLjI5di05LjIyYy40MSAwIDMuNDQuMTIgMy40NCA0LjU3LjAzIDIuMzItMSAzLjc5LTIuMjEgNC4zOFptNDAuODQgOS40OFYzMTJoLTkuNTZ2LTI4Ljc0SDM5OHYyMy41N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTkuOTYgLTI4MC41MykiIHN0eWxlPSJmaWxsOiNmZmYiLz48L3N2Zz4=" alt="" class="miniIconImg">
+                    </div>
                    
                   <a href="" class="compYourMission">Complete your mission</a> 
 
@@ -200,29 +208,38 @@
              
 
         <!--Row3( leftSide 1img, rightside-header,text,miniButton) -->
-        <div class="leftSide">
-            <img src="https://cms-live.pandora.net/resource/responsive-image/1863730/m49-50-50-module/lg/6/brilliance-ring-x-3.jpg" alt="" class="Collection8">
+        <div class="row3">
+            <div class="leftSide">
+                <img src="https://cms-live.pandora.net/resource/responsive-image/1863730/m49-50-50-module/lg/6/brilliance-ring-x-3.jpg" alt="" class="Collection">
+            </div>
+    
+            <div class="rightSide1">
+               <h3>Diamond by Pandora</h3> 
+               <p>With its unique infinity-inspired setting and exquisite lab-created <br> diamond, each piece is as meaningful as it is radiant. Celebrate <br> your power to shine everyday.</p>
+               <div class="miniButton">
+                   <a class="miniButtons" href=""> <h6>SHOP NOW</h6> </a>
+               </div>
+            </div>
         </div>
-
-        <div class="rightSide">
-           <h3>Diamond by Pandora</h3> 
-           <p>With its unique infinity-inspired setting and exquisite lab-created diamond, each piece is as meaningful as it is radiant. Celebrate your power to shine everyday.</p>
-        </div>
-        <div class="miniButton">
-            <a class="miniButtons" href=""> <h6>SHOP NOW</h6> </a>
-        </div>
+        
 
         <!-- footerContainer -->
         <!-- signUp container [header,text, emailbox ( use input tag + place holder, signup button]-->
         <div class="footerContainer">
-            <h5>Get The Latest From Pandora!</h5>
-            <p>Be the first to hear about new arrivals, promotions, style inspiration and exclusive sneak peeks.</p>
-            <div class="rightSide">
+         <div class="upperFooter">
+            <div class="footerheading">
+                <h5>Get The Latest From Pandora!</h5>
+            <p>Be the first to hear about new arrivals, promotions, style <br> inspiration and exclusive sneak peeks.</p>
+            </div> 
+            
+            <div class="rightSide2">
                 <input type="text" class="enterEmail" placeholder=" Enter email address"> 
-            </div>
             <div class="signUpButton">
                 <button> SIGN UP </button>
-            </div> <br> <br>
+            </div>
+            </div> 
+         </div>
+            <br> <br>
             <hr>
             
             

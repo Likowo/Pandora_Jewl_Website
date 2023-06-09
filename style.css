@@ -45,7 +45,7 @@ justify-content: space-evenly;
     height:50px;
     width:145px;
     display: flex; 
-    display flex: position;
+
 }
 
 .padMoCollect, .text1a, .padSigCollect, .text1b, .padTimeLessCollect, .text1c, .padMeCollect, .text1d, .disXPanCollect, .text1e, .starWarsXPanCollect, .text1f, .compYourMission, .text1g {
@@ -65,7 +65,11 @@ row2 img{
     /* height:280px; */
 }
 
-
+.footerContainer{
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+    height: 60vh;
+}
 
 /* .row1 img{
     height:280px;

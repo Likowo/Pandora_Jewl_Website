@@ -41,10 +41,11 @@ justify-content: space-evenly;
     text-align: center;
 }
 
-.Collection1, .Collection2, .Collection3, .Collection4, .Collection5, .Collection6, .Collection7{
-    height:100px;
+.Collection1, .Collection2, .Collection3, .Collection4, .Collection5, .Collection6, .Collection7, .Collection8{
+    height:50px;
     width:145px;
     display: flex; 
+    display flex: position;
 }
 
 .padMoCollect, .text1a, .padSigCollect, .text1b, .padTimeLessCollect, .text1c, .padMeCollect, .text1d, .disXPanCollect, .text1e, .starWarsXPanCollect, .text1f, .compYourMission, .text1g {
@@ -61,7 +62,7 @@ color: black;
 }
 
 row2 img{
-    height:280px;
+    /* height:280px; */
 }
 
 

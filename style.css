@@ -35,3 +35,22 @@ justify-content: space-evenly;
 .mainheading{
     text-align: center;
 }
+
+.Collection1{
+    height: 228px;
+    display: flex;
+
+  
+}
+.padMoCollect, .text1a{
+    text-decoration: none;
+    color: black;
+}
+
+.text1{
+    width:250px;
+}
+
+.miniButtons{
+color: black;
+}
